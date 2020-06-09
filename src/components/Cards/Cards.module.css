@@ -16,6 +16,7 @@
   border: solid 1px rgb(0, 0, 255);
   font-weight: bold;
   border-radius: 4px;
+  line-height: 1.5;
   padding: 4px;
   width: 100%;
 }
@@ -28,6 +29,7 @@
   border: solid 1px rgb(0, 255, 0);
   font-weight: bold;
   border-radius: 4px;
+  line-height: 1.5;
   padding: 4px;
   width: 100%;
 
@@ -41,8 +43,24 @@
   border: solid 1px red;
   font-weight: bold;
   border-radius: 4px;
+  line-height: 1.5;
   padding: 4px;
   width: 100%;
+}
+
+.cardTitleInfected{
+  font-size: 150%;
+  color: rgb(0, 0, 255);
+}
+
+.cardTitleRecovered{
+  font-size: 150%;
+  color: rgb(0, 255, 0 );
+}
+
+.cardTitleDeaths{
+  font-size: 150%;
+  color: rgb(255, 0, 0);
 }
 
 @media only screen and (max-width: 770px) {

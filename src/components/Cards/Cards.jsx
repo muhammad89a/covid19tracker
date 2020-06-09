@@ -15,7 +15,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
       <div  justify="center">
         <div  className={styles.infected}>
           <div>
-            <div color="textSecondary" gutterBottom>
+            <div className={styles.cardTitleInfected} color="textSecondary" gutterBottom>
               Infected
             </div>
             <div variant="h5" component="h2">
@@ -31,7 +31,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         </div>
         <div className={styles.recovered}  >
           <div>
-            <div color="textSecondary" gutterBottom>
+            <div className={styles.cardTitleRecovered} color="textSecondary" gutterBottom>
               Recovered
             </div>
             <div variant="h5" component="h2">
@@ -47,7 +47,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         </div>
         <div className={styles.deaths} >
           <div>
-            <div color="textSecondary" gutterBottom>
+            <div className={styles.cardTitleDeaths}  color="textSecondary" gutterBottom>
               Deaths
             </div>
             <div variant="h5" component="h2">
