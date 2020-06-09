@@ -8,12 +8,13 @@ body {
 
 
 .container {
-  display: flex;
+  display: inline-flexnpm ;
   align-items: center;
   flex-direction: column;
 }
 .ContentContainer{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   margin: 50px 0;
   align-items: center;
@@ -24,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  width: 600px;
 }
 
 .image {
