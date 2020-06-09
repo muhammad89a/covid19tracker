@@ -21,11 +21,19 @@ body {
   flex-direction: row; 
 }
 
+
 .ChartContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 600px;
+  width: 65%;
+}
+@media only screen and (max-width: 600px){
+  .ChartContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 .image {

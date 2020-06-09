@@ -12,7 +12,6 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 
   return (
     <div className={styles.container}>
-      <div  justify="center">
         <div  className={styles.infected}>
           <div>
             <div className={styles.cardTitleInfected} color="textSecondary" gutterBottom>
@@ -60,7 +59,6 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               Number of deaths caused by COVID-19.
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
